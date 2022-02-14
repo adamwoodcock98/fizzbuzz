@@ -17,3 +17,9 @@ describe 'fizzbuzz' do
       expect(fizzbuzz(15)).to eq 'fizzbuzz'
     end
 end
+
+describe 'fizzbuzz' do
+  it 'returns the number when not passed a multiple of 3 or 5' do
+      expect(fizzbuzz(2)).to eq '2'
+    end
+end
